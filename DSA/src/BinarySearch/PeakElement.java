@@ -1,6 +1,7 @@
 package BinarySearch;
 
 public class PeakElement {
+	//
 	 public int findPeakElement(int[] nums) {
 	        int low=0;
 	        int high=nums.length-1;
