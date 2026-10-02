@@ -33,7 +33,7 @@ public class FirstLastOccurence {
 			
 		}
 		public int findLast(int[] arr,int n) {
-			
+			//
 			int low=0;
 			int high=arr.length-1;
 			int ans=-1;
