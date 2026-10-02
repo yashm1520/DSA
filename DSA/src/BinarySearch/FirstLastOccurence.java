@@ -16,7 +16,7 @@ public class FirstLastOccurence {
 			while(low<=high) {
 				mid=(low+high)/2;
 				if(arr[mid]==n) {
-					ans=mid;
+				//	ans=mid;
 					high=mid-1;
 					
 				}
