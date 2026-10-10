@@ -11,9 +11,9 @@ public class rotate {
 	      ListNode(int val, ListNode next) { this.val = val; this.next = next; }
 	  }
 	 
-	class Solution {
-	   int count (ListNode head){
-	        int length = 0;
+	
+    int count (ListNode head){
+	int length = 0;
 	ListNode current = head;
 
 	while (current != null) {
@@ -51,4 +51,4 @@ public class rotate {
 	    }
 	    
 	}
-}
+
